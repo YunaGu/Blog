@@ -53,5 +53,6 @@ a:visited{
 }
 .welcome{
   font-weight: 500;
+  padding-bottom: 30px;
 }
 </style>

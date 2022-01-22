@@ -11,13 +11,10 @@
     <router-view/>
     <div class="myFooter">
       <div class="contact">
-        <div class="ways" v-for="(item,i) in footer" :key="i">
-          <h3 class="title">{{item.text}}</h3>
-          <!-- <div class="link"> -->
-            <!-- <img class="icon" src="{{item.icon}}"> -->
-          <p class="link">{{item.link}}</p>
-          <!-- </div> -->
-        </div>
+        <font-awesome-icon class="icon" :icon="['fas', 'envelope-square']" />
+        <font-awesome-icon class="icon" :icon="['fab', 'github']" />
+        <font-awesome-icon class="icon" :icon="['fab', 'instagram']" />
+        <font-awesome-icon class="icon" :icon="['fab', 'linkedin']" />
       </div>
       <p id="copyRight">© 2022 YUN GU</p>
     </div>
@@ -98,6 +95,11 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.icon{
+  font-size: 1.5em;
+  margin: 10px;
+  margin-bottom: 0;
 }
 .ways{
   margin: 0 100px;
