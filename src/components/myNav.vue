@@ -56,7 +56,6 @@ export default {
   font-size:1.5em;
   font-family: Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: black;
-  display: inline-block;
   height: 1.5em;
 }
 .item:link{
