@@ -4,7 +4,16 @@
       <img src="../assets/yungu.png">
   </div>
   <div class="bar">
-      <span class="item" v-for="nav in navs" :key="nav.id">{{nav.text}}</span>
+      <!-- <span class="item" v-for="nav in navs" :key="nav.id">{{nav.text}}</span> -->
+    <router-link to="/Works">
+        <span class="item" >Works</span>
+    </router-link>
+    <router-link to="/Bio">
+        <span class="item" >Bio</span>
+    </router-link>
+    <router-link to="/">
+        <span class="item" >Home</span>
+    </router-link>
   </div>
 </div>
 </template>
@@ -13,11 +22,6 @@
 export default {
   data () {
     return {
-      navs: [
-        { id: 1, text: 'Work' },
-        { id: 2, text: 'Bio' },
-        { id: 3, text: 'Home' }
-      ]
     }
   }
 }
@@ -47,7 +51,7 @@ export default {
 }
 .item {
   margin: 30px;
-  /* background-color: green; */
+  cursor: pointer;
   float: right;
   font-size:1.5em;
   font-family: Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

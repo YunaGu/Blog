@@ -3,7 +3,7 @@
     <img alt="photo" class="photo" src="../assets/photo.png">
     <div class="introduction">
       <p class="greeting">Hello!</p>
-      <p class="welcome">I am Yun Gu, a postgraduate student @ <a href="https://www.cardiff.ac.uk/computer-science">Cardiff COMSC.</a> Welcome to my website : ).</p>
+      <p class="welcome">I am Yun Gu, a postgraduate student @ <a href="https://www.cardiff.ac.uk/computer-science">Cardiff COMSC</a>. Welcome to my website : ).</p>
     </div>
   </div>
 </template>
