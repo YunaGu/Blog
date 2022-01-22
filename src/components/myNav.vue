@@ -55,5 +55,18 @@ export default {
   float: right;
   font-size:1.5em;
   font-family: Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  display: inline-block;
+  height: 1.5em;
+}
+.item:link{
+  color: none;
+}
+.item:hover{
+  color:#888;
+  border-bottom: 3px solid #888;
+}
+.item:visited{
+  color:none;
 }
 </style>
