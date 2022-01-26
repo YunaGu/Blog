@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
   <div class="logo">
-      <img src="../assets/yungu.png">
+      <img class="logoImg" src="../assets/yungu.png">
   </div>
   <div class="bar">
       <!-- <span class="item" v-for="nav in navs" :key="nav.id">{{nav.text}}</span> -->
@@ -42,6 +42,32 @@ export default {
     /* background-color: #666; */
     float: left;
     margin-left: 70px;
+}
+/* On screens that are 830px or less, logo zoom in */
+@media screen and (max-width: 830px) {
+  .logo {
+    width: 50%;
+    /* height: 50px; */
+    /* background-color: #666; */
+    float: left;
+    margin-left: 0;
+  }
+  .logoImg{
+    width: 100%;
+  }
+}
+/* On screens that are 480px or less, logo zoom in */
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 40px;
+    /* height: 50px; */
+    /* background-color: #666; */
+    float: left;
+    margin-left: 0;
+  }
+  .logoImg{
+    width: 50%;
+  }
 }
 .bar {
     color: #000;

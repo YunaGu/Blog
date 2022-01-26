@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Bio from '../views/Bio.vue'
 import Works from '../views/Works.vue'
+import WorkDetails from '../views/WorkDetails.vue'
+import NotFound from '../views/NotFound.vue'
 
 const routes = [
   {
@@ -18,6 +20,20 @@ const routes = [
     path: '/Works',
     name: 'Works',
     component: Works
+  },
+  {
+    path: '/WorkDetails/:title',
+    name: 'WorkDetails',
+    // component: () => import('./views/WorkDetails')
+    component: WorkDetails
+  },
+  {
+    path: '/:catchAll(.*)',
+    name: 'NotFound',
+    component: NotFound,
+    meta: {
+      requiresAuth: false
+    }
   }
 ]
 

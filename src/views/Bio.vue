@@ -9,14 +9,14 @@
      <p>Bachelor of Engineering in Electronic Information Engineering (full-time)</p>
      <h2>Internship</h2>
      <blockquote><i>Qianjin Network Information Technology (Shanghai) Co., Ltd. (07/2020-09/2020)</i></blockquote>
-     <p>Summer intern of front-end developer @ <a href="http://">51job</a>, Shanghai </p>
+     <p>Summer intern of front-end developer @ <a href="http://" target="_blank">51job</a>, Shanghai </p>
      <blockquote><i>Zyllion Data Technology (Shanghai) Co., Ltd. (02/2020-04/2020)</i></blockquote>
-     <p>Intern of Data Product Group @ <a href="http://">Zyllion</a>, Shanghai</p>
+     <p>Intern of Data Product Group @ <a href="http://" target="_blank">Zyllion</a>, Shanghai</p>
      <h2>What's More About Me</h2>
      <blockquote><i>A football player</i></blockquote>
-     <p>I used to be the captain of Shanghai Maritime University ladies football, and I'm a fan of @ <a href="https://www.liverpoolfc.com/">Liverpool fc</a>.</p>
+     <p>I used to be the captain of Shanghai Maritime University ladies football, and I'm a fan of @ <a href="https://www.liverpoolfc.com/" target="_blank">Liverpool fc</a>.</p>
      <blockquote><i>A musician</i></blockquote>
-     <p>I play the guitar well and could play basic piano and drums. I'm a fan of Britpop, especially @ <a href="https://www.oasisinet.com/#!/home">Oasis</a>.</p>
+     <p>I play the guitar well and could play basic piano and drums. I'm a fan of Britpop, especially @ <a href="https://www.oasisinet.com/#!/home" target="_blank">Oasis</a>.</p>
      <p><a class="download" href="#" download=""><u>Download Resume</u></a></p>
      <!-- <p>I'm Yun Gu, a software engineer with passion for design. Currently I am doing my Master at Cardiff University.</p> -->
      <!-- <p>I like to learn new technologies and apply them in a creative way, with sense of simplicity, humour and naivity.</p> -->
@@ -45,7 +45,8 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin:30px 0;
+  margin:30px auto;
+  width: 50%;
 }
 blockquote::before{
   content: "";
